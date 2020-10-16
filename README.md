@@ -7,7 +7,7 @@ terraform should make sure resources are deleted before recreating, but seems to
 Strange about this, is also that an initial `terraform plan` states the infrastructure to be in sync.
 When doing a follow up `terraform plan` the missing resources show up, though.
 
-See [this git repo]() to reproduce this issue.
+See [this git repo](https://github.com/exawolve/terraform-issue-missing-subscriptions) to reproduce this issue.
 
 ### description
 Given the following SQS/SNS infrastructure:
