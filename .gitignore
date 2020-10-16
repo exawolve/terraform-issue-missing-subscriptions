@@ -1,0 +1,4 @@
+.terraform
+/.idea/
+**/s3-backend.tf
+
